@@ -1,0 +1,11 @@
+[package]
+name = "user/sunthornpuhorror"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+janitor = "cometahn1042/janitor@0.1.6"
+
+[server-dependencies]
+profileservice = "firebird702/profileservice@1.1.0"
