@@ -1,13 +1,64 @@
 {
   "emitLegacyScripts": false,
-  "name": "template",
+  "name": "sunthornpuhorror",
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
       "Source": {
         "$className": "Folder",
         "Features": {
-          "$className": "Folder"
+          "$className": "Folder",
+          "Chapter": {
+            "$className": "Folder",
+            "Modules": {
+              "$className": "Folder",
+              "ChapterInfo": {
+                "$path": "src/features/chapter/modules/ChapterInfo.luau"
+              }
+            }
+          },
+          "Enemy": {
+            "$className": "Folder",
+            "Behaviours": {
+              "$className": "Folder",
+              "EnemyWalk": {
+                "$path": "src/features/enemy/behaviours/EnemyWalk.luau"
+              }
+            },
+            "Factories": {
+              "$className": "Folder",
+              "EnemyRoamChase": {
+                "$path": "src/features/enemy/factories/EnemyRoamChase.luau"
+              }
+            },
+            "Modules": {
+              "$className": "Folder",
+              "EnemyInfo": {
+                "$path": "src/features/enemy/modules/EnemyInfo.luau"
+              }
+            },
+            "Types": {
+              "$className": "Folder",
+              "EnemyType": {
+                "$path": "src/features/enemy/types/EnemyType.luau"
+              }
+            }
+          },
+          "Map": {
+            "$className": "Folder",
+            "Modules": {
+              "$className": "Folder",
+              "MapInfo": {
+                "$path": "src/features/map/modules/MapInfo.luau"
+              }
+            },
+            "Types": {
+              "$className": "Folder",
+              "MapModelType": {
+                "$path": "src/features/map/types/MapModelType.luau"
+              }
+            }
+          }
         },
         "Core": {
           "$className": "Folder"
@@ -37,7 +88,31 @@
       "Source": {
         "$className": "Folder",
         "Features": {
-          "$className": "Folder"
+          "$className": "Folder",
+          "Chapter": {
+            "$className": "Folder",
+            "ChapterServiceServer": {
+              "$path": "src/features/chapter/ChapterServiceServer.luau"
+            }
+          },
+          "Enemy": {
+            "$className": "Folder",
+            "Classes": {
+              "$className": "Folder",
+              "EnemyHandlerServer": {
+                "$path": "src/features/enemy/classes/EnemyHandlerServer.luau"
+              }
+            }
+          },
+          "Map": {
+            "$className": "Folder",
+            "Classes": {
+              "$className": "Folder",
+              "MapServer": {
+                "$path": "src/features/map/classes/MapServer.luau"
+              }
+            }
+          }
         },
         "Core": {
           "$className": "Folder"

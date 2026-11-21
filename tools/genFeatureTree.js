@@ -55,7 +55,7 @@ function getVirtualPath(filepath) {
 
 const tree = {
   emitLegacyScripts: false,
-  name: "template",
+  name: "sunthornpuhorror",
   tree: {
     $className: "DataModel",
 
